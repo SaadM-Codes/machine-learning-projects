@@ -58,6 +58,5 @@ jupyter lab
 ## Author
 
 **Saad Mahmood**  
-Machine Learning and Data Engineering Student  
-Lapland University of Applied Sciences  
+Machine Learning and Data Engineering Student    
 GitHub: [@SaadM-Codes](https://github.com/SaadM-Codes)
