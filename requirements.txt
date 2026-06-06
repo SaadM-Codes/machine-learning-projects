@@ -1,0 +1,36 @@
+# Core Data Science
+numpy==2.2.6
+pandas==2.3.1
+scipy==1.15.3
+
+# Visualization
+matplotlib==3.10.3
+seaborn==0.13.2
+
+# Machine Learning
+scikit-learn
+
+# Deep Learning
+keras==3.12.0
+torch==2.7.1
+torchvision==0.22.1
+
+# TensorFlow (Mac specific)
+tensorflow-macos==2.16.2
+tensorflow-metal==1.2.0
+
+# Computer Vision
+opencv-python==4.11.0.86
+pillow==11.3.0
+ultralytics==8.4.36
+
+# Jupyter Environment
+jupyter==1.1.1
+jupyterlab==4.5.0
+ipykernel==6.30.1
+ipywidgets==8.1.8
+
+# Utilities
+tqdm==4.67.1
+requests==2.32.4
+python-dotenv==1.2.1
