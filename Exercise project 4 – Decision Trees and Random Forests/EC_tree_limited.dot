@@ -1,0 +1,33 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label="node #0\nSquare Footage <= 12536.5\nsquared_error = 686224.344\nsamples = 100\nvalue = 4187.578", fillcolor="#f2c09d"] ;
+1 [label="node #1\nNumber of Occupants <= 22.0\nsquared_error = 298178.715\nsamples = 23\nvalue = 3197.145", fillcolor="#f9e2d2"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="node #2\nBuilding Type <= 1.5\nsquared_error = 85193.737\nsamples = 7\nvalue = 2673.281", fillcolor="#fdf4ee"] ;
+1 -> 2 ;
+3 [label="(...)", fillcolor="#C0C0C0"] ;
+2 -> 3 ;
+12 [label="(...)", fillcolor="#C0C0C0"] ;
+2 -> 12 ;
+15 [label="node #15\nAppliances Used <= 37.5\nsquared_error = 218766.845\nsamples = 16\nvalue = 3426.336", fillcolor="#f7dac5"] ;
+1 -> 15 ;
+16 [label="(...)", fillcolor="#C0C0C0"] ;
+15 -> 16 ;
+33 [label="(...)", fillcolor="#C0C0C0"] ;
+15 -> 33 ;
+46 [label="node #46\nSquare Footage <= 38120.0\nsquared_error = 421597.277\nsamples = 77\nvalue = 4483.422", fillcolor="#f0b68d"] ;
+0 -> 46 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+47 [label="node #47\nNumber of Occupants <= 67.0\nsquared_error = 351947.754\nsamples = 52\nvalue = 4252.402", fillcolor="#f2be99"] ;
+46 -> 47 ;
+48 [label="(...)", fillcolor="#C0C0C0"] ;
+47 -> 48 ;
+115 [label="(...)", fillcolor="#C0C0C0"] ;
+47 -> 115 ;
+150 [label="node #150\nSquare Footage <= 45592.0\nsquared_error = 224555.965\nsamples = 25\nvalue = 4963.944", fillcolor="#eda673"] ;
+46 -> 150 ;
+151 [label="(...)", fillcolor="#C0C0C0"] ;
+150 -> 151 ;
+190 [label="(...)", fillcolor="#C0C0C0"] ;
+150 -> 190 ;
+}
